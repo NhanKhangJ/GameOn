@@ -53,9 +53,7 @@ function countDownPlay(){
     let result = 10
     for(let i = 0; i <=10; i++){
         setTimeout(() =>{
-            timeCount += i*1000;
-            displayM.innerHTML = result--
-            console.log(result);
+            displayM.innerText = result--;
         }, i*1000 +1000)
     }
     setTimeout(()=>{
